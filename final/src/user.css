@@ -1,0 +1,153 @@
+.user__face.xl{
+    width: 60px;
+    height: 60px;
+    border-radius: 28px;
+    margin-right: 15px;
+}
+
+.user__face.l{
+    width: 50px;
+    height: 50px;
+    border-radius: 22px;
+    margin-right: 12px;
+}
+
+.user__face.m{
+    width: 40px;
+    height: 40px;
+    border-radius: 18px;
+    margin-right: 10px;
+}
+
+.user__face.xs{
+    width: 23px;
+    height: 23px;
+    border-radius: 10px;
+}
+
+.user__face.fourFaces{
+    width: 60px;
+    height: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 2px;
+}
+
+.user__face.channel{
+    background-color: #FAE100;
+    width: 45px;
+    height: 40px;
+    border-radius: 18px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.user__face.channel[id="dior"]{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 18px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 16px;
+    border: 1px white solid;
+    margin-right: 10px
+}
+
+.user__name{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.user__name.m{
+    font-size: 14px;
+}
+
+.user__name.m.row{
+    font-size: 16px;   
+}
+
+.user__name.chatting{
+    display: flex;
+
+    font-size: 14px;
+}
+
+.user__number{
+    font-size: 14px;
+    opacity: 0.4;
+}
+
+.user__lastMessage{
+    margin-top: 5px;
+    opacity: 0.7;    
+}
+
+.user__messageTime{
+    opacity: 0.4;
+}
+
+
+.user__status{
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 8px;
+}
+
+.user__status.m{
+    font-size: 12px;
+}
+
+.user__column{
+    display: flex;
+    flex-direction: column;
+}
+
+.user__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.user__row.m{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.user__row.channel{
+    display: flex;
+    opacity: 0.6;
+    font-size: 14px;
+    justify-content: space-between;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.user__music{
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 700;
+    border: 1px seagreen solid;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+.user__music .music__icon{
+    font-size: 10px;
+    color: seagreen;
+    margin-left: 5px;
+}

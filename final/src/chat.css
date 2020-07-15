@@ -1,0 +1,39 @@
+.chat{
+
+}
+
+.chat__write{
+    position: fixed;
+    width: inherit;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2B2C2E;
+    margin: 0 auto;
+    height: 45px;
+    padding: 0px 15px;
+}
+
+.chat__write i{
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.chat__write input{
+    padding: 10px 10px;
+    width: 100%;
+    border: 1px rgba(255, 255, 255, 0.3) solid;
+    border-radius: 20px;
+    background-color: #38383A;
+}
+
+.chat__write input:focus{
+    outline: none;
+}
+
+.chat__write .write__column:nth-child(2){
+    width: 80%;
+}

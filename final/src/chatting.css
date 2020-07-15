@@ -1,0 +1,21 @@
+.chatting .chatting__user,
+.chatting .chatting__users{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.chatting__user .chatting__userLink{
+    display: flex;
+    width: 100%;
+}
+
+.chatting__pinned,
+.chatting__muted{
+    opacity: 0.4;
+    font-size: 12px;
+    margin-left: 1px;
+}
+
+.more .more__advertise{
+    width: 100%;
+}

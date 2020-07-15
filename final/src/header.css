@@ -1,0 +1,108 @@
+.header{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px rgba(255, 255, 255, 0.05) solid;
+}
+
+.header .header__firstLayer{
+    width: 100%;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* position: fixed;    카톡은 헤더 고정되어있음 */
+}
+
+.header__firstLayer .header__iconList{
+    font-size: 18px;
+    display: flex;
+}
+
+.header__iconList .iconList__item{
+    margin-left: 15px;
+}
+
+.header .header__secondLayer{
+    width: 100%;
+}
+
+.header__secondLayer .header__advertise{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.header__user{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header__firstLayer .header__row{
+    width: 100%;
+    display: flex;
+}
+
+.header__firstLayer .header__categories{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    overflow-x: scroll;
+}
+
+.header__categories .category{
+    margin: 0px 10px;
+    opacity: 0.5;
+    font-size: 20px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.header__categories .category.on{
+    opacity: 1;
+    font-weight: 800;
+    border-bottom: 2px white solid;
+    bottom: -10px;
+}
+
+.header .header__chatHeader{
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+}
+
+.header__chatHeader .chat__icon{
+    font-size: 16px;
+}
+
+.chat__icon.mrglft{
+    margin-left: 5px;
+}
+
+.chat__icon.mrgrgt{
+    margin-right: 5px;
+}   
+
+
+/* .chatHeader__column{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chatHeader__row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+} */

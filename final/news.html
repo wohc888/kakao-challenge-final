@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <title>Contents</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span class="status-bar__time">10:25</span>
+            <i class="fas fa-location-arrow icon"></i>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-signal icon"></i>
+            <span class="status-bar__LTE icon">LTE</span>
+            <i class="fas fa-battery-three-quarters icon"></i>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__firstLayer">
+            <div class="header__row">
+                <ul class="header__categories">
+                    <li class="category">
+                        <span>코로나19</span>
+                    </li>
+                    <li class="category on">
+                        <span>뉴스</span>
+                    </li>
+                    <li class="category">
+                        <span>FUN</span>
+                    </li>
+                    <li class="category">
+                        <span>연예</span>
+                    </li>
+                    <li class="category">
+                        <span>스포츠</span>
+                    </li>
+                    <li class="category">
+                        <span>영화</span>
+                    </li>
+                    <li class="category">
+                        <span>뮤직</span>
+                    </li>
+                </ul> 
+                <i class="fas fa-exchange-alt"></i>
+            </div>
+        </div>
+        <div class="header__secondLayer">
+            <div class="header__advertise">
+                This is supposed to be an advertisement
+            </div>
+        </div>
+    </header>
+    <main class="contents">
+        <div class="contents__newsList">
+            <span class="newsList__news">"맡겨봤자 쥐꼬리 이자" 은행 정기예금 석달새 14조적자 발생...</span>
+            <span class="newsList__news">공무원 자녀 무상교육인데도 학비보조 수당 부당 지급, 또 다른 어쩌구 저쩌구</span>
+            <span class="newsList__news">거리 두기, 마스크.."언제까지 해야 하나요?"[친절한 마스크 도우미 한수현이 나간다!야야야!</span>
+            <span class="newsList__news">남아공 임신부 한국 교민, 송환기 탑승 직전 "안돼" 낭패</span>
+            <span class="newsList__news">김현미 "집 안 팔고 증여? 매매보다 이득 되지 않게 할...</span>
+        </div>
+        <div class="contents__row">
+            <div class="contents__thumbnailNews">
+                <img src="img/bus.jpg" alt="" class="thumbnailNews__thumbnail">
+                <span class="thumbnailNews__headline">
+                    서울시, 남산-도심 연계 '녹색순환버스' 친환경전기...
+                </span>
+            </div>
+            <div class="contents__thumbnailNews">
+                <img src="img/america.jpg" alt="" class="thumbnailNews__thumbnail">
+                <span class="thumbnailNews__headline">
+                    미국서 코로나19로 숨진 맥시코인 1천500명.. 유골...
+                </span>
+            </div>
+        </div>
+        <div class="contents__weather"> <!--가로 스크롤로 만들수있지않을까-->
+                <div class="weather__row xl">
+                    <i class="fas fa-umbrella"></i>
+                    <span id="degree">19</span><span id="celsius">℃</span>
+                </div>
+            <div class="weather__row s">                
+                <div class="weather__column">
+                    <span>강서구 화곡4동</span>
+                    <span>어제보다 1℃높아요</span>
+                </div>
+                <i class="far fa-compass" id="comp"></i>
+            </div>
+        </div>
+        <div class="contens__newsListFolder">
+            <div class="contents__newsList hidden">
+                <span class="newsList__news">침묵 택한 여가부... 미투 피해자 보호 외면,</span>
+                <span class="newsList__news">기재부 차관 "7.10 대첵, 이제 집에 투기해서 돈 못 번...</span>
+                <span class="newsList__news">"자궁경부암백신 '가다실9' 만 45세 여성까지 접종...</span>
+                <span class="newsList__news">진성준 "박원순, 살아서 해명이든 사과든 헀으면 어땠...</span>
+                <span class="newsList__news">대출없이 산 현금부자들, 아파트값 더블돼도 "안 팔아...</span>
+            </div>
+        </div>
+        <!-- <div class="contents__search">
+            <input type="text" class="search__bar">
+        </div> -->
+    </main>
+    <div class="nav-bar">
+        <ul class="nav-bar__list">
+            <li class="list__item">
+                <a href="index.html" class="list__item-link">
+                    <i class="fas fa-user"></i>
+                </a>
+            </li>
+            <li class="list__item">
+                <a href="chatting.html" class="list__item-link">
+                    <i class="far fa-comment"></i>
+                </a>
+            </li>
+            <li class="list__item on">
+                <a href="news.html" class="list__item-link">
+                    <i class="fas fa-hashtag"></i>
+                </a>
+            </li>
+            <li class="list__item">
+                <a href="more.html" class="list__item-link">
+                    <i class="fas fa-ellipsis-h"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

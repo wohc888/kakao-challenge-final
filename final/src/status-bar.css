@@ -1,0 +1,27 @@
+.status-bar{
+    width: inherit;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 0px 20px;
+    left: 0;
+    top: 0;
+    margin-bottom: 30px;
+    background-color: black;
+}
+
+/* .status-bar .status-bar__column{
+
+} */
+
+.status-bar .status-bar__time,
+.status-bar .icon{
+    margin-right: 2px;
+}
+
+.status-bar .status-bar__time{
+    font-size: 14px;
+    font-weight: 700;
+}

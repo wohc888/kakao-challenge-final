@@ -1,0 +1,61 @@
+.friends{
+    background-color: black;
+}
+.friends .friends__favorite{
+    margin-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px rgba(255, 255, 255, 0.05) solid;
+    margin-bottom: 10px;
+}
+
+.friends .friends__channel{
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px rgba(255, 255, 255, 0.05) solid;
+    margin-bottom: 10px;
+}
+
+.friends .friends__friendList{
+    overflow: scroll;
+}
+
+.friends .favorite__header,
+.friends .channel__header,
+.friends .friendList__header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+
+/* .favorite__header:focus{
+    클릭하면 접었다 폈다
+} */
+
+.friends__favorite .favorite__user{
+    display: flex;
+}
+
+.friends__channel .channel__user{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.friends__friendList .friendList__user{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.row__dior{
+    display: flex;
+}
+
+.row__dior .channel__ad{
+    opacity: 0.3;
+    border: 1px white solid;
+    border-radius: 7px;
+    padding: 2px 4px;
+    font-size: 10px;
+    margin-left: 5px;
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <title>Friends</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span class="status-bar__time">10:25</span>
+            <i class="fas fa-location-arrow icon"></i>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-signal icon"></i>
+            <span class="status-bar__LTE icon">LTE</span>
+            <i class="fas fa-battery-three-quarters icon"></i>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__firstLayer">
+            <span class="header__title">
+                친구
+            </span>
+            <ul class="header__iconList">
+                <li class="iconList__item">
+                    <i class="fas fa-search"></i>
+                </li>
+                <li class="iconList__item">
+                    <i class="fas fa-user-plus"></i>
+                </li>
+                <li class="iconList__item">
+                    <i class="fas fa-music"></i>
+                </li>
+                <li class="iconList__item">
+                    <i class="fas fa-cog"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="header__secondLayer">
+            <div class="header__user">
+                <img src="img/chat1.jpeg" alt="" class="user__face xl">
+                <div class="user__row">
+                    <div class="user__column">
+                        <span class="user__name">한수현</span>
+                        <span class="user__status">흐에엥</span>
+                    </div>
+                    <div class="user__music">
+                        <span>버스 안에서 - KIRIN (기린)</span>
+                        <i class="fas fa-play music__icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="friends">
+        <div class="friends__favorite">
+            <div class="favorite__header">
+                <span class="favorite__title">즐겨찾기</span>
+                <i class="fas fa-chevron-up"></i>
+            </div>
+            <div class="favorite__user">
+                <img src="img/chat2.jpeg" alt="" class="user__face m">
+                <div class="user__row">
+                    <div class="user__column">
+                        <span class="user__name m">Frank</span>
+                    </div>
+                    <div class="user__music">
+                        <span>Politics & Violence - Dominic ...</span>
+                        <i class="fas fa-play music__icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="friends__channel">
+            <div class="channel__header">
+                <span class="channel__title">채널</span>
+                <i class="fas fa-chevron-up"></i>
+            </div>
+            <div class="channel__user">
+                <div class="user__face channel"> Ch </div>
+                <div class="user__row m"</div>
+                    <div class="user__column">
+                        <span class="user__name m">채널</span>
+                    </div>
+                    <div class="user__row channel">
+                        <div class="">16</div>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="channel__user" id="dior">
+                <div class="user__face channel" id="dior">DIOR</div>
+                <div class="user__row m"</div>
+                    <div class="user__column">
+                        <div class="row__dior">
+                            <span class="user__name m">디올</span>
+                            <div class="channel__ad">AD</div>
+                        </div>
+                        <span class="user__status">디올 2020 남성 가을 컬렉션</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="friends__friendList">
+            <div class="friendList__header">
+                <span class="friendList__title">친구 12</span>
+                <i class="fas fa-chevron-up"></i>
+            </div>
+            <div class="friendList__user">
+                <img src="img/chat3.jpeg" alt="" class="user__face m" id="관현이">
+                <div class="user__row">
+                    <div class="user__column">
+                        <span class="user__name m">관현이</span>
+                    </div>
+                </div>
+            </div>
+            <div class="friendList__user">
+                <img src="img/chat6.jpeg" alt="" class="user__face m" id="누나">
+                <div class="user__row">
+                    <div class="user__column">
+                        <span class="user__name m">누나</span>
+                    </div>
+                    <div class="user__music">
+                        <span>April In Torino - Eddie ...</span>
+                        <i class="fas fa-play music__icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="friendList__user">
+                <img src="img/chat8.png" alt="" class="user__face m" id="동재">
+                <div class="user__row">
+                    <div class="user__column">
+                        <span class="user__name m">동재</span>
+                        <span class="user__status m">아무것도 아니여</span>
+                    </div>
+                    <div class="user__music">
+                        <span>Strange (Edit) - Celeste</span>
+                        <i class="fas fa-play music__icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="friendList__user">
+                <img src="img/chat7.jpeg" alt="" class="user__face m" id="dummy">
+                <div class="user__row">
+                    <div class="user__column">
+                        <span class="user__name m">dummy</span>
+                        <span class="user__status m">i am a dummy</span>
+                    </div>
+                    <div class="user__music">
+                        <span>Dummy (Edit) - Dummydummy</span>
+                        <i class="fas fa-play music__icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="friendList__user">
+                <img src="img/chat7.jpeg" alt="" class="user__face m" id="dummy">
+                <div class="user__row">
+                    <div class="user__column">
+                        <span class="user__name m">dummy</span>
+                        <span class="user__status m">i am a dummy</span>
+                    </div>
+                    <div class="user__music">
+                        <span>Dummy (Edit) - Dummydummy</span>
+                        <i class="fas fa-play music__icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="friendList__user">
+                <img src="img/chat7.jpeg" alt="" class="user__face m" id="dummy">
+                <div class="user__row">
+                    <div class="user__column">
+                        <span class="user__name m">dummy</span>
+                        <span class="user__status m">i am a dummy</span>
+                    </div>
+                    <div class="user__music">
+                        <span>Dummy (Edit) - Dummydummy</span>
+                        <i class="fas fa-play music__icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="friendList__user">
+                <img src="img/chat7.jpeg" alt="" class="user__face m" id="dummy">
+                <div class="user__row">
+                    <div class="user__column">
+                        <span class="user__name m">dummy</span>
+                        <span class="user__status m">i am a dummy</span>
+                    </div>
+                    <div class="user__music">
+                        <span>Dummy (Edit) - Dummydummy</span>
+                        <i class="fas fa-play music__icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="friendList__user">
+                <img src="img/chat7.jpeg" alt="" class="user__face m" id="dummy">
+                <div class="user__row">
+                    <div class="user__column">
+                        <span class="user__name m">dummy</span>
+                        <span class="user__status m">i am a dummy</span>
+                    </div>
+                    <div class="user__music">
+                        <span>Dummy (Edit) - Dummydummy</span>
+                        <i class="fas fa-play music__icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="friendList__user">
+                <img src="img/chat7.jpeg" alt="" class="user__face m" id="dummy">
+                <div class="user__row">
+                    <div class="user__column">
+                        <span class="user__name m">dummy</span>
+                        <span class="user__status m">i am a dummy</span>
+                    </div>
+                    <div class="user__music">
+                        <span>Dummy (Edit) - Dummydummy</span>
+                        <i class="fas fa-play music__icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="friendList__user">
+                <img src="img/chat7.jpeg" alt="" class="user__face m" id="dummy">
+                <div class="user__row">
+                    <div class="user__column">
+                        <span class="user__name m">dummy</span>
+                        <span class="user__status m">i am a dummy</span>
+                    </div>
+                    <div class="user__music">
+                        <span>Dummy (Edit) - Dummydummy</span>
+                        <i class="fas fa-play music__icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="nav-bar">
+        <ul class="nav-bar__list">
+            <li class="list__item on">
+                <a href="index.html" class="list__item-link">
+                    <i class="fas fa-user"></i>
+                </a>
+            </li>
+            <li class="list__item">
+                <a href="chatting.html" class="list__item-link">
+                    <i class="far fa-comment"></i>
+                </a>
+            </li>
+            <li class="list__item">
+                <a href="news.html" class="list__item-link">
+                    <i class="fas fa-hashtag"></i>
+                </a>
+            </li>
+            <li class="list__item">
+                <a href="more.html" class="list__item-link">
+                    <i class="fas fa-ellipsis-h"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
