@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <title>More</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span class="status-bar__time">10:25</span>
+            <i class="fas fa-location-arrow icon"></i>
+        </div>
+        <div class="status-bar__column">
+            <i class="fas fa-signal icon"></i>
+            <span class="status-bar__LTE icon">LTE</span>
+            <i class="fas fa-battery-three-quarters icon"></i>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__firstLayer">
+            <span class="header__title">
+                더보기
+            </span>
+            <ul class="header__iconList">
+                <li class="iconList__item">
+                    <i class="fas fa-search"></i>
+                </li>
+                <li class="iconList__item">
+                    <i class="fas fa-user-plus"></i>
+                </li>
+                <li class="iconList__item">
+                    <i class="fas fa-music"></i>
+                </li>
+                <li class="iconList__item"> <!--reddot-->
+                    <i class="fas fa-cog"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="header__secondLayer">
+            <div class="header__user">
+                <img src="img/chat1.jpeg" alt="" class="user__face xl">
+                <div class="user__row">
+                    <div class="user__column">
+                        <span class="user__name">한수현</span>
+                        <span class="user__status">suedd98@nate.com</span>
+                    </div>
+                    <div class="more__row">
+                        <a href="#" class="my">MY</a>
+                        <i class="fas fa-angry" id="angry"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="more">
+        <div class="more__pay">
+            <div class="pay__money">
+                <div class="pay__row">
+                    <i class="fab fa-apple-pay" id="pay"></i>
+                    <span> 10,051원</span>
+                </div>
+            </div>
+                <div class="pay__row func">
+                    <span class="pay__function" id="send">송금</span>
+                    <span class="pay__function" id="payment">결제</span>
+                    <span class="pay__function" id="asset">자산</span>
+                </div>
+        </div>
+        <div class="more__apps">
+            <div class="apps__column">
+                <div class="apps__row">
+                    <div class="apps__app">
+                        <i class="fas fa-archive"></i>
+                        <div class="app__name">archive</div>
+                    </div>
+                    <div class="apps__app">
+                        <i class="fas fa-archway"></i>
+                        <div class="app__name">archway</div>
+                    </div>
+                    <div class="apps__app">
+                        <i class="fas fa-arrow-alt-circle-up"></i><!--reddot-->
+                        <div class="app__name">upload</div>
+                    </div>
+                    <div class="apps__app">
+                        <i class="fas fa-assistive-listening-systems"></i>
+                        <div class="app__name">podcast</div>
+                    </div>
+                </div>
+                <div class="apps__row">
+                    <div class="apps__app">
+                        <i class="fas fa-asterisk"></i>
+                        <div class="app__name">asterisk</div>
+                    </div>
+                    <div class="apps__app">
+                        <i class="fas fa-atlas"></i>
+                        <div class="app__name">atlas</div>
+                    </div>
+                    <div class="apps__app">
+                        <i class="fas fa-bacterium"></i>
+                        <div class="app__name">corona19</div>
+                    </div>
+                    <div class="apps__app">
+                        <i class="fas fa-baby"></i><!--reddot-->
+                        <div class="app__name">babysit</div>
+                    </div>
+                </div>
+                <div class="apps__row">
+                    <div class="apps__app">
+                        <i class="fas fa-atom"></i>
+                        <div class="app__name">atom</div>
+                    </div>
+                    <div class="apps__app">
+                        <i class="fas fa-bacon"></i>
+                        <div class="app__name">fastfood</div>
+                    </div>
+                    <div class="apps__app">
+                        <i class="fas fa-balance-scale"></i>
+                        <div class="app__name">measure</div>
+                    </div>
+                    <div class="apps__app">
+                        <i class="fab fa-audible"></i><!--reddot-->
+                        <div class="app__name">audible</div>
+                    </div>
+                </div>
+                <div class="apps__row">
+                    <div class="apps__app">
+                        <i class="fas fa-ban"></i>
+                        <div class="app__name">ban</div>
+                    </div>
+                    <div class="apps__app">
+                        <i class="fas fa-barcode"></i>
+                        <div class="app__name">receipt</div>
+                    </div>
+                    <div class="apps__app">
+                        <i class="fas fa-basketball-ball"></i>
+                        <div class="app__name">NBA</div>
+                    </div>
+                    <div class="apps__app">
+                        <i class="fas fa-beer"></i>
+                        <div class="app__name">beer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="more__advertise">
+            This is supposed to be an advertisement
+        </div>
+    </main>
+    <div class="nav-bar">
+        <ul class="nav-bar__list">
+            <li class="list__item">
+                <a href="index.html" class="list__item-link">
+                    <i class="fas fa-user"></i>
+                </a>
+            </li>
+            <li class="list__item">
+                <a href="chatting.html" class="list__item-link">
+                    <i class="far fa-comment"></i>
+                </a>
+            </li>
+            <li class="list__item">
+                <a href="news.html" class="list__item-link">
+                    <i class="fas fa-hashtag"></i>
+                </a>
+            </li>
+            <li class="list__item on">
+                <a href="more.html" class="list__item-link">
+                    <i class="fas fa-ellipsis-h"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

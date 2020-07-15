@@ -1,0 +1,35 @@
+.nav-bar{
+    background-color: #121214;
+    position: absolute;
+    width: inherit;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    box-shadow: -8px 0px 40px rgba(0, 0, 0, 0.4);
+    left: 0;
+}
+
+.nav-bar .nav-bar__list{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar__list .list__item{
+    margin-top: 3px;
+    width: 98px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar__list .list__item.on{
+    background-color: #102335;
+}
+
+.list__item .list__item-link{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
